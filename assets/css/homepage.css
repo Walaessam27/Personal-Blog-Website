@@ -1,0 +1,75 @@
+/* homepage.css */
+
+.title {
+    background-image: url('../assets/images/pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(78, 22, 22);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.titlediv h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.titlediv p {
+    font-size: 1.2em;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.7s;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 17px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+.card .btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #7c3535;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
