@@ -1,6 +1,7 @@
 /* main.css */
 @import url('homepage.css');
 @import url('blogpost.css');
+@import url('hd&ft.css');
 
 * {
     margin: 0;
@@ -20,31 +21,3 @@ a {
     color: inherit;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: center;
-    background-color: #561a1a;
-    padding: 10px 0;
-    list-style: none;
-}
-
-header nav ul li {
-    margin: 0 20px;
-}
-
-header nav ul li a {
-    color: white;
-    font-size: 1.1em;
-    padding: 10px;
-}
-
-header nav ul li a:hover {
-    color: #f0a500;
-}
-
-footer {
-    background-color: #a34a4a;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
